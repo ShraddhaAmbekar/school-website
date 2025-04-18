@@ -1,0 +1,177 @@
+/* Home.css - Dark Theme */
+
+.home {
+  width: 100%;
+  background-color: #111;
+  color: white;
+
+}
+
+.banner {
+  position: relative;
+  height: 95vh;
+  background: linear-gradient(to bottom, rgba(18, 18, 18, 0.1), rgba(18, 18, 18)),
+              url('https://images.squarespace-cdn.com/content/v1/572729a74c2f85c3ba538d26/1668152752791-H88GIEMWA4HJZQFOCAVO/_Q0A0363.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+ 
+}
+
+
+.banner-content {
+  bottom: 50px;
+  position: relative;
+  width: 1000px;
+  z-index: 5;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+ 
+
+}
+
+.banner-content h1 {
+  font-size:60px;
+  font-weight: 1000;
+}
+
+.banner-content p {
+  font-size: 25px;
+  margin-top: 1rem;
+  color: #e0e0e0;
+}
+.transform-split {
+  position: relative;
+  background-color: #060606;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.container-split {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.split-image img {
+  width: 600px;
+  height: 500px;
+ 
+}
+
+.split-line {
+  width: 1px;
+  height: 650px; /* Make sure it has height! */
+  background-color: rgba(103, 103, 103, 0.3); /* Make sure it's visible */
+  margin: 0 20px;
+}
+
+.split-text {
+  width: 50%;
+}
+
+.split-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  
+}
+
+.split-text span {
+  color: #ff0000;
+}
+.split-text p{
+  font-size: 20px;
+} 
+/* Responsive */
+@media (max-width: 768px) {
+  .container-split {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .split-text {
+    padding-right: 0;
+   
+  }
+
+  .split-image img {
+    max-width: 100%;
+  }
+}
+/* Section 4 - Light Theme */
+.white-section {
+  background-color: #fff;
+  color: #050505;
+}
+
+/* Dark Testimonial Section */
+.testimonial-section {
+  background-color: #111; /* Dark background */
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonial-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.testimonial-card {
+  background: #1a1a1a;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+
+}
+
+.testimonial-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+.testimonial-card h4 {
+  color: #e63946;
+  font-weight: 600;
+}
+
+
+.thumbnail img{
+  width: 400px;
+  height:350px
+}
+.gallery-header{
+  font-size: 40px;
+  font-weight: 900px;
+  display: flex;
+  justify-content: center;
+  padding:20px
+
+}
+
+

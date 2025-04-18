@@ -1,0 +1,98 @@
+/* General Navbar Styles */
+.navbar {
+  background-color: #1e1e1e; /* Dark background */
+  border-bottom: 1px solid #444; /* Slight border for modern look */
+  transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ff4081; /* Pinkish hover effect */
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: #bbb; /* Lighter gray text */
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, padding 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ff4081; /* Pinkish hover effect */
+  padding-left: 20px; /* Slight left padding on hover */
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #333; /* Darker background for dropdown */
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #bbb;
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #444; /* Darker hover for dropdown items */
+  color: #fff;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  content: ''; /* Remove dropdown icon */
+}
+
+.navbar-nav .dropdown:hover .nav-link {
+  color: #ff4081; /* Pinkish hover effect on dropdown items */
+}
+
+/* Navbar collapse for mobile */
+.navbar-collapse {
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    transform: translateX(100%);
+    visibility: hidden;
+  }
+
+  .navbar-collapse.show {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: #ff4081; /* Red color for toggler button */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White icon for toggler */
+}
+
+/* Smooth hover effect for navbar links */
+.nav-item:hover > .nav-link {
+  color: #ff4081; /* Color change on hover */
+}
+
