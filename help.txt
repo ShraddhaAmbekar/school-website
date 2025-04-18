@@ -15,5 +15,5 @@ npm install aos
 import AOS from 'aos';      //in index.js
 import 'aos/dist/aos.css';     //in index.js  and removed it while deployment
 
-
+ 
 
