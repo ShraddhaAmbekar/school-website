@@ -35,7 +35,7 @@ const Header = () => {
     </ul>
   </li>
   <li className="has-submenu">
-  <Link to="/about" onClick={closeMenu}><span>About</span> </Link>
+  <Link to="/about" onClick={toggleMenu}><span>About</span> </Link>
     <ul className="submenu">
       <li><Link to="/about" className="sublinks" onClick={closeMenu}> &#x27A2; Mission</Link></li>
       <li><Link to="/about" className="sublinks" onClick={closeMenu}> &#x27A2;Vision</Link></li>

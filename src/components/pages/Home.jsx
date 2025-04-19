@@ -51,77 +51,79 @@ const Home = () => {
 
         </div>
 
-        <div className="container">
+      <div className="home-gallery">
+      <div className="container ">
 
-          <h2 className='gallery-header'>Image Gallery</h2>
+<h2 className='gallery-header'>Image Gallery</h2>
 
 
 
-          <div className="row">
-            <div className="col-md-4">
-              <div className="thumbnail">
+<div className="row">
+  <div className="col-md-4">
+    <div className="thumbnail">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" alt="Lights" />
-                <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" alt="Lights" />
+      <div className="caption">
+        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+      </div>
 
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="thumbnail">
+    </div>
+  </div>
+  <div className="col-md-4">
+    <div className="thumbnail">
 
-                <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
-                <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+      <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
+      <div className="caption">
+        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+      </div>
 
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="thumbnail">
+    </div>
+  </div>
+  <div className="col-md-4">
+    <div className="thumbnail">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
-                <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
+      <div className="caption">
+        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+      </div>
 
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4">
-              <div className="thumbnail">
+    </div>
+  </div>
+</div>
+<div className="row">
+  <div className="col-md-4">
+    <div className="thumbnail">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" alt="Lights" />
-                <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" alt="Lights" />
+      <div className="caption">
+        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+      </div>
 
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="thumbnail">
+    </div>
+  </div>
+  <div className="col-md-4">
+    <div className="thumbnail">
 
-                <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
-                <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+      <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
+      <div className="caption">
+        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+      </div>
 
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="thumbnail">
+    </div>
+  </div>
+  <div className="col-md-4">
+    <div className="thumbnail">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
-                <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
+      <div className="caption">
+        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+      </div>
 
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </div>
+</div>
+</div>
+      </div>
 
         <div className="container container-split mb-4" >
           <div className="split-image split-text">

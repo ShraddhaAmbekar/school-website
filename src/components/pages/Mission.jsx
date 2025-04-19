@@ -10,7 +10,7 @@ const Mission = () => {
               <h1>Mission and Vission</h1></div>
             <div className="split-line"></div>
             <div className="split-text">
-              <h1>Mission and Vission</h1>
+              <h3>Lorem ipsum dolor sit amet.</h3>
             </div></div>
         </div>
       </section>

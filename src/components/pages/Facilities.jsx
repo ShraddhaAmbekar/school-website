@@ -1,16 +1,16 @@
-import React from 'react'
-
+import React from 'react' 
+import './Facilities.css'
 const Facilities = () => {
   return (
     <div>
       <section>
-        <div className="about-banner ">
+        <div className="facilities-banner ">
           <div className='container-split container'>
             <div className="split-text">
               <h1>Facilities</h1></div>
             <div className="split-line"></div>
             <div className="split-text">
-              <h1>Facilities</h1>
+            <h3>Lorem ipsum dolor sit amet.</h3>
             </div></div>
         </div>
       </section>

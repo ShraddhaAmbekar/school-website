@@ -15,5 +15,5 @@ npm install aos
 import AOS from 'aos';      //in index.js
 import 'aos/dist/aos.css';     //in index.js  and removed it while deployment
 
- 
+ facing issue of bootstrap and aos istallment while deployment ....I removed aos through npm uninstall aos and install bootstrap again through npm install bootstrap then npm run dev and deployment is ready.
 
