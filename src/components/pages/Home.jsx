@@ -1,153 +1,148 @@
 import React from 'react';
 import './Home.css';
-import Footer from '../ui/Footer';
-import NewsSection from './NewsSection';
+import StatsSection from './StatsSection';
+
 
 const Home = () => {
   return (
- <div>
-     <div className="home">
-      <div className="banner">
-        <div className="banner-content">
-          <h1>Welcome to Atal Utkrisht Pt.Mahimanand Nautiyal Gic Jibya Kotdhar, Uttarkashi </h1>
-          <p>Empowering students to become future leaders</p>
+    <div>
+      <div className="home">
+        <div className="banner">
+          {/* <div className="banner-content">
+            <h1>Welcome to Atal Utkrisht Pt.Mahimanand Nautiyal Gic Jibya Kotdhar, Uttarkashi </h1>
+            <p>Empowering students to become future leaders</p>
+          </div> */}
         </div>
-      </div>
-      <section className="transform-split section2">
-        <div className="container container-split">
-          <div className="split-text">
-            <h2>We Transform <br />the School Experience</h2>
-            <p>
-              Empowering students through innovation, creativity, and a future-forward vision.
-              Our modern approach redefines how children learn, grow, and succeed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati facilis est quis nulla harum dolorem voluptatibus in. Eligendi ea officiis accusamus sunt autem tempora quod numquam temporibus? Soluta dolore ratione, ut laboriosam autem officiis in,
-            </p>
+        <section className="transform-split section2">
+          <div className="container container-split">
+            <div className="split-text">
+              <h2>We Transform <br />the School Experience</h2>
+              <p>
+                The Atal Utkrisht Schools are a transformative initiative by the Uttarakhand government aimed at enhancing educational standards in government schools, dedicated to former Prime Minister Atal Bihari Vajpayee. These schools provide quality education similar to private institutions, focusing on rural areas. With CBSE affiliation, English medium instruction, and essential facilities, they strive to retain students and improve educational opportunities, ensuring that every child has access to a brighter future.
+              </p>
+            </div>
+            <div className="split-line"></div>
+            <div className="split-image split-text">
+              <img
+                src="https://www.shutterstock.com/image-photo/portrait-two-diligent-girls-looking-260nw-130517294.jpg"
+                alt="Students Learning"
+              />
+            </div>
           </div>
-          <div className="split-line"></div>
-          <div className="split-image split-text">
-            <img
-              src="https://www.shutterstock.com/image-photo/portrait-two-diligent-girls-looking-260nw-130517294.jpg"
-              alt="Students Learning"
-            />
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="transform-split white-section">
-        <div className="container container-split mb-4" >
-          <div className="split-image split-text">
-            <img
-              src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
-              alt="Learning Together"
-            />
-          </div>
-          <div className="split-line"></div>
-          <div className="split-text">
-            <h2>What is a Global academy?</h2>
-            <p>
-              At our school, we prepare students not just for exams, but for life. Our curriculum blends traditional values with 21st-century skills—ensuring each student grows into a confident, capable, and compassionate individual. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt ratione cupiditate vel laudantium nostrum dicta tempora sed voluptatibus eius!
-            </p>
-          </div>
+        <section className="transform-split white-section">
+          <div className="container container-split mb-4" >
+            <div className="split-image split-text">
+              <img
+                src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
+                alt="Learning Together"
+              />
+            </div>
+            <div className="split-line"></div>
+            <div className="split-text">
+              <h2>About Us</h2>
+              <p>
+
+                Atal Utkrisht Pt. Mahimanand Nautiyal Government Inter College, Jibya Kotdhar, Uttarkashi is a prestigious educational institution nestled in the remote hilly region of Uttarakhand. Established as a high school in 1990 and upgraded to the intermediate level in 1998, the school earned the distinguished status of Atal Utkrisht Vidyalaya and CBSE affiliation in 2021.
+
+                Our mission goes beyond textbooks — we strive to nurture capable, aware, and value-driven individuals ready to face life with confidence. With a balanced focus on Science, Arts, and Technical education, we aim for holistic development.
+
+                With 203 students, dedicated teachers, and committed staff, our school continues to move forward with a strong foundation of quality education, ethical values, and self-reliance.
+              </p>
+            </div>
 
 
-        </div>
-
-      <div className="home-gallery">
-      <div className="container ">
-
-<h2 className='gallery-header'>Image Gallery</h2>
-
-
-
-<div className="row">
-  <div className="col-md-4">
-    <div className="thumbnail">
-
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" alt="Lights" />
-      <div className="caption">
-        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-
-    </div>
-  </div>
-  <div className="col-md-4">
-    <div className="thumbnail">
-
-      <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
-      <div className="caption">
-        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-
-    </div>
-  </div>
-  <div className="col-md-4">
-    <div className="thumbnail">
-
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
-      <div className="caption">
-        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-
-    </div>
-  </div>
-</div>
-<div className="row">
-  <div className="col-md-4">
-    <div className="thumbnail">
-
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" alt="Lights" />
-      <div className="caption">
-        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-
-    </div>
-  </div>
-  <div className="col-md-4">
-    <div className="thumbnail">
-
-      <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
-      <div className="caption">
-        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-
-    </div>
-  </div>
-  <div className="col-md-4">
-    <div className="thumbnail">
-
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
-      <div className="caption">
-        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-
-    </div>
-  </div>
-</div>
-</div>
-      </div>
-
-        <div className="container container-split mb-4" >
-          <div className="split-image split-text">
-            <img
-              src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
-              alt="Learning Together"
-            />
-          </div>
-          <div className="split-line"></div>
-          <div className="split-text">
-            <h2>Our Unique Transformative Practice</h2>
-            <p>
-              At our school, we prepare students not just for exams, but for life. Our curriculum blends traditional values with 21st-century skills—ensuring each student grows into a confident, capable, and compassionate individual. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt ratione cupiditate vel laudantium nostrum dicta tempora sed voluptatibus eius!
-            </p>
           </div>
 
+          <div className="home-gallery">
+            <div className="container ">
+              <h2 className='gallery-header'>Image Gallery</h2>
+              <div className="row">
+                <div className="col-md-4">
+                  <div className="thumbnail">
 
-        </div>
+                    <img src="/assets/images/gallery-image2.jpg" alt="Lights" />
+                    <div className="caption">
+                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
 
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="thumbnail">
+                    <img src="" alt="Nature" />
+                    <div className="caption">
+                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
 
-      </section>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="thumbnail">
 
+                    <img src="/assets/images/gallery-image1.jpg" alt="Fjords" />
+                    <div className="caption">
+                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
 
-      {/* <section className="testimonial-section">
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-4">
+                  <div className="thumbnail">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s"  alt="Lights" />
+                    <div className="caption">
+                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="thumbnail">
+
+                    <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
+                    <div className="caption">
+                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="thumbnail">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
+                    <div className="caption">
+                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="container container-split" >
+            <div className="split-image split-text">
+              <img
+                src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
+                alt="Learning Together"
+              />
+            </div>
+            <div className="split-line"></div>
+            <div className="split-text">
+              <h2>why choose us ?</h2>
+              <p>
+              we take pride in nurturing minds through the expertise of our experienced and dedicated educators who create a dynamic and inclusive learning environment tailored to every student’s unique potential. Our focus extends beyond academics—we believe in shaping well-rounded individuals by fostering character, leadership, and a deep-rooted sense of social responsibility. With a wide array of enriching extracurricular activities, sports, and cultural clubs, we ensure that every student not only learns but thrives with confidence and purpose.
+              </p>
+            </div>
+          </div>
+        </section>
+  <StatsSection/>
+
+        {/* <section className="testimonial-section">
         <div className="testimonial-header">
           <h2>What Parents Say</h2>
         </div>
@@ -179,10 +174,10 @@ const Home = () => {
       <section className="section5 white-section">
         <NewsSection />
       </section> */}
-    
+
+      </div>
+
     </div>
-    
- </div>
   );
 };
 

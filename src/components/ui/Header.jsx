@@ -44,7 +44,7 @@ const Header = () => {
 
   
 
-  <li><Link to="" onClick={closeMenu}><span>Contact-us</span> </Link></li>
+  <li><Link to="contact" onClick={closeMenu}><span>Contact-us</span> </Link></li>
   <li className="has-submenu">
   <Link to="/about" onClick={closeMenu}><span>Facilities </span></Link>
     <ul className="submenu">

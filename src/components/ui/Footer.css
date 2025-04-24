@@ -65,3 +65,7 @@ width:100%
   border-top: 1px solid #333;
   padding-top: 20px;
 }
+@media(max-width:700px){
+  .footer-column  { 
+    text-align: center;}
+}
