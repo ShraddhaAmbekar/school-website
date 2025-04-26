@@ -90,7 +90,7 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                  <img src="/assets/images/gallery-image2.jpg" alt="Fjords" loading='lazy'/>
+                  <img src="/assets/images/school-images/19.jpg" alt="Fjords" loading='lazy'/>
                     
 
                   </div>
