@@ -48,7 +48,7 @@
 }
 
 .grid-item:hover {
- 
+  border:1px solid rgba(0, 0, 0, 0.7);
   transform: scale(1.1);
    /* Subtle lift effect */
 }
@@ -60,7 +60,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   opacity: 0;
   transition: opacity 0.4s ease;
   display: flex;
@@ -72,8 +72,6 @@
 .grid-item:hover .overlay {
   opacity: 1;
 }
-
-/* Overlay Text Styling */
 
 
 /* Animate text on hover */
@@ -88,8 +86,6 @@
   height: 350px;
   object-fit: cover;
   border-radius: 12px;
-
- 
 }
 
 

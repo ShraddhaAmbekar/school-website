@@ -35,7 +35,7 @@ const Header = () => {
     </ul>
   </li>
   <li className="has-submenu">
-  <Link to="/about" onClick={toggleMenu}><span>About</span> </Link>
+  <Link><span>About</span> </Link>
     <ul className="submenu">
       <li><Link to="/about" className="sublinks" onClick={closeMenu}> &#x27A2; Mission</Link></li>
       <li><Link to="/about" className="sublinks" onClick={closeMenu}> &#x27A2;Vision</Link></li>
@@ -46,7 +46,7 @@ const Header = () => {
 
   <li><Link to="contact" onClick={closeMenu}><span>Contact-us</span> </Link></li>
   <li className="has-submenu">
-  <Link to="/about" onClick={closeMenu}><span>Facilities </span></Link>
+  <Link ><span>Facilities </span></Link>
     <ul className="submenu">
       <li><Link to="/facilities" className="sublinks" onClick={closeMenu}>	&#x27A2; Library</Link></li>
       <li><Link to="/facilities" className="sublinks" onClick={closeMenu}>	&#x27A2; Laboratory</Link></li>

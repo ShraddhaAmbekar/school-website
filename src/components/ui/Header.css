@@ -1,6 +1,6 @@
 /* Header.css */
 .main-header {
-  background: #000;
+  background-color: #0f0f0f;
   color: white;
   position: sticky;
   top: 0;
@@ -75,23 +75,29 @@
 .has-submenu {
   position: relative;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
 }
 
+/* Smooth Submenu Styles */
 .has-submenu > .submenu {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 1s ease-in-out, opacity 0.5s ease-in-out;
   list-style: none;
   padding-left: 50px;
   margin-top: 5px;
 }
 
+/* On hover, show submenu with animation */
 .has-submenu:hover > .submenu {
-  display: block;
+  max-height: 500px; 
+  opacity: 1;
 }
 
 .submenu li {
   margin-top: 10px;
   font-size: 20px !important;
- 
 }
 
 .sublinks{

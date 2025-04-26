@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="contact-info">
             <h4>Get in Touch</h4>
             <p>Email: </p>
-            <p>Phone: +91 </p>
+            <p>Phone: +91 9761436675 / +91 9259516141 </p>
             <p>Address:Atal Utkrisht Late Mahimanand Nautiyal GIC Jibya Kotdhar Chinyalisaur Uttarkashi Pin code 249152 </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Contact = () => {
 
 
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3431.5991531021273!2d78.22733687557809!3d30.673414174612944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQwJzI0LjMiTiA3OMKwMTMnNDcuNyJF!5e0!3m2!1sen!2sin!4v1745372467733!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3431.5991531021273!2d78.22733687557809!3d30.673414174612944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQwJzI0LjMiTiA3OMKwMTMnNDcuNyJF!5e0!3m2!1sen!2sin!4v1745372467733!5m2!1sen!2sin" width="100%" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 </section>

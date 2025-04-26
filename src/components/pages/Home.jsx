@@ -43,7 +43,6 @@ const Home = () => {
             <div className="split-text">
               <h2>About Us</h2>
               <p>
-
                 Atal Utkrisht Pt. Mahimanand Nautiyal Government Inter College, Jibya Kotdhar, Uttarkashi is a prestigious educational institution nestled in the remote hilly region of Uttarakhand. Established as a high school in 1990 and upgraded to the intermediate level in 1998, the school earned the distinguished status of Atal Utkrisht Vidyalaya and CBSE affiliation in 2021.
 
                 Our mission goes beyond textbooks — we strive to nurture capable, aware, and value-driven individuals ready to face life with confidence. With a balanced focus on Science, Arts, and Technical education, we aim for holistic development.
@@ -62,28 +61,26 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="/assets/images/gallery-image2.jpg" alt="Lights" />
+                    <img src="/assets/images/gallery-image2.jpg" alt="Lights" loading='lazy' />
                     <div className="caption">
-                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    
                     </div>
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                    <img src="" alt="Nature" />
-                    <div className="caption">
-                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                    </div>
+                    <img src="" alt="Nature" loading='lazy' />
+                   
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="/assets/images/gallery-image1.jpg" alt="Fjords" />
+                    <img src="/assets/images/gallery-image1.jpg" alt="Fjords" loading='lazy'/>
                     <div className="caption">
-                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                     
                     </div>
 
                   </div>
@@ -93,30 +90,24 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s"  alt="Lights" />
-                    <div className="caption">
-                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" loading='lazy' alt="Lights" />
+                    
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" />
-                    <div className="caption">
-                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                    </div>
+                    <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" loading='lazy'/>
+                    
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" />
-                    <div className="caption">
-                      <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" loading='lazy'/>
+                   
 
                   </div>
                 </div>
@@ -128,7 +119,7 @@ const Home = () => {
             <div className="split-image split-text">
               <img
                 src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
-                alt="Learning Together"
+                alt="Learning Together" loading='lazy'
               />
             </div>
             <div className="split-line"></div>
