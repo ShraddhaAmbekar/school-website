@@ -61,7 +61,7 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="/assets/images/gallery-image2.jpg" alt="Lights" loading='lazy' />
+                    <img src="/assets/images/school-images/29.jpeg" alt="Lights" loading='lazy' />
                     <div className="caption">
                     
                     </div>
@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                    <img src="" alt="Nature" loading='lazy' />
+                  <img src="/assets/images/school-images/30.jpeg" alt="Fjords" loading='lazy'/>
                    
 
                   </div>
@@ -90,7 +90,14 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOFmW_GWj6vXF6PHAUwPWC0pNCh9Sl6UtuQ&s" loading='lazy' alt="Lights" />
+                  <img src="/assets/images/gallery-image2.jpg" alt="Fjords" loading='lazy'/>
+                    
+
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="thumbnail">
+                  <img src="/assets/images/banner.jpg" alt="Fjords" loading='lazy'/>
                     
 
                   </div>
@@ -98,15 +105,7 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="https://m.media-amazon.com/images/I/81EhZofH2RL._AC_UF1000,1000_QL80_.jpg" alt="Nature" loading='lazy'/>
-                    
-
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="thumbnail">
-
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIOKvkSjQL0YNzTzLuBn67P5oHVl3q5Zh2A&s" alt="Fjords" loading='lazy'/>
+                  <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy'/>
                    
 
                   </div>
