@@ -9,14 +9,13 @@ const Home = () => {
     <div>
       <div className="home">
         <div className="banner">
-          {/* <div className="banner-content">
-            <h1>Welcome to Atal Utkrisht Pt.Mahimanand Nautiyal Gic Jibya Kotdhar, Uttarkashi </h1>
-            <p>Empowering students to become future leaders</p>
-          </div> */}
+
         </div>
+
+
         <section className="transform-split section2">
           <div className="container container-split">
-          <h2 className='mobile-title'>We Transform <br />the School Experience</h2>
+            <h2 className='mobile-title'>We Transform <br />the School Experience</h2>
             <div className="split-text">
               <h2 className='desktop-title'>We Transform <br />the School Experience</h2>
 
@@ -112,7 +111,7 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
                     <Link to='/gallery'>
-                      <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy'/></Link>
+                      <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy' /></Link>
                   </div>
                 </div>
               </div>
@@ -120,8 +119,8 @@ const Home = () => {
           </div>
 
           <div className="container container-split" >
-          <h2 className='mobile-title'>Why choose us?</h2>
-          
+            <h2 className='mobile-title'>Why choose us?</h2>
+
             <div className="split-image split-text">
               <img
                 src='/assets/images/other/19.jpg'
@@ -130,7 +129,7 @@ const Home = () => {
             </div>
             <div className="split-line"></div>
             <div className="split-text">
-            <h2 className='desktop-title'>Why choose us?</h2>
+              <h2 className='desktop-title'>Why choose us?</h2>
               <p>
                 we take pride in nurturing minds through the expertise of our experienced and dedicated educators who create a dynamic and inclusive learning environment tailored to every student’s unique potential. Our focus extends beyond academics—we believe in shaping well-rounded individuals by fostering character, leadership, and a deep-rooted sense of social responsibility. With a wide array of enriching extracurricular activities, sports, and cultural clubs, we ensure that every student not only learns but thrives with confidence and purpose.
               </p>

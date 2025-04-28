@@ -20,17 +20,16 @@
   text-align: center;
 }
 
-p{
-word-spacing: -1px;
+p {
+  word-spacing: -3px;
 }
+
 .transform-split {
   position: relative;
   background-color: #000000;
   color: #fff;
   padding: 0px 0;
 }
-
-
 
 .container-split {
   position: relative;
@@ -40,6 +39,7 @@ word-spacing: -1px;
 }
 
 .split-image img {
+ 
   width: 600px;
   height: 500px;
 
@@ -218,6 +218,7 @@ word-spacing: -1px;
 
 /* Extra small devices (width ≤ 480px) */
 @media (max-width: 480px) {
+
   /* Home Banner */
   .banner {
     height: 540px;
@@ -239,6 +240,8 @@ word-spacing: -1px;
   }
 
   .split-image img {
+    margin-top: 30px;
+ outline: 30px solid white;
     width: 100%;
     height: auto;
     margin-bottom: 20px;
