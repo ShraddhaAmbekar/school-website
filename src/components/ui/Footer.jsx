@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom-text">
-          <p>&copy; 2025 Atal Utkrisht. All rights reserved.</p>
+          <p>&copy; 2025 Atal Utkrisht Gic Jibya Kotdhar,Uttarkashi. All rights reserved.</p>
         </div>
       </div>
     </footer>
