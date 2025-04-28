@@ -16,8 +16,10 @@ const Home = () => {
         </div>
         <section className="transform-split section2">
           <div className="container container-split">
+          <h2 className='mobile-title'>We Transform <br />the School Experience</h2>
             <div className="split-text">
-              <h2>We Transform <br />the School Experience</h2>
+              <h2 className='desktop-title'>We Transform <br />the School Experience</h2>
+
               <p>
                 The Atal Utkrisht Schools are a transformative initiative by the Uttarakhand government aimed at enhancing educational standards in government schools, dedicated to former Prime Minister Atal Bihari Vajpayee. These schools provide quality education similar to private institutions, focusing on rural areas. With CBSE affiliation, English medium instruction, and essential facilities, they strive to retain students and improve educational opportunities, ensuring that every child has access to a brighter future.
               </p>
@@ -34,7 +36,9 @@ const Home = () => {
 
         <section className="transform-split white-section">
           <div className="container container-split mb-4" >
+            <h2 className='mobile-title'>About Us</h2>
             <div className="split-image split-text">
+
               <img
                 src='/assets/images/other/17.jpg'
                 alt="Learning Together"
@@ -42,7 +46,7 @@ const Home = () => {
             </div>
             <div className="split-line"></div>
             <div className="split-text">
-              <h2>About Us</h2>
+              <h2 className='desktop-title'>About Us</h2>
               <p>
                 Atal Utkrisht Pt. Mahimanand Nautiyal Government Inter College, Jibya Kotdhar, Uttarkashi is a prestigious educational institution nestled in the remote hilly region of Uttarakhand. Established as a high school in 1990 and upgraded to the intermediate level in 1998, the school earned the distinguished status of Atal Utkrisht Vidyalaya and CBSE affiliation in 2021.
 
@@ -62,28 +66,28 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-<Link to='/gallery'>
-                    <img src="/assets/images/school-images/29.jpeg" alt="Lights" loading='lazy' /></Link>
+                    <Link to='/gallery'>
+                      <img src="/assets/images/school-images/29.jpeg" alt="Lights" loading='lazy' /></Link>
                     <div className="caption">
-                    
+
                     </div>
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                  <Link to='/gallery'>
-                  <img src="/assets/images/school-images/30.jpeg" alt="Fjords" loading='lazy'/></Link>
-                   
+                    <Link to='/gallery'>
+                      <img src="/assets/images/school-images/30.jpeg" alt="Fjords" loading='lazy' /></Link>
+
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                  <Link to='/gallery'>
-                    <img src="/assets/images/gallery-image1.jpg" alt="Fjords" loading='lazy'/></Link>
+                    <Link to='/gallery'>
+                      <img src="/assets/images/gallery-image1.jpg" alt="Fjords" loading='lazy' /></Link>
                     <div className="caption">
-                     
+
                     </div>
 
                   </div>
@@ -93,24 +97,22 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                 <Link to='/gallery'> <img src="/assets/images/school-images/19.jpg" alt="Fjords" loading='lazy'/></Link>
+                    <Link to='/gallery'> <img src="/assets/images/school-images/19.jpg" alt="Fjords" loading='lazy' /></Link>
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                  <Link to='/gallery'>
-                  <img src="/assets/images/banner.jpg" alt="Fjords" loading='lazy'/>
+                    <Link to='/gallery'>
+                      <img src="/assets/images/banner.jpg" alt="Fjords" loading='lazy' />
                     </Link>
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                  <Link to='/gallery'>
-                  <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy'/></Link>
-                   
-
+                    <Link to='/gallery'>
+                      <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy'/></Link>
                   </div>
                 </div>
               </div>
@@ -118,22 +120,24 @@ const Home = () => {
           </div>
 
           <div className="container container-split" >
+          <h2 className='mobile-title'>Why choose us?</h2>
+          
             <div className="split-image split-text">
               <img
-                 src='/assets/images/other/19.jpg'
+                src='/assets/images/other/19.jpg'
                 alt="Learning Together" loading='lazy'
               />
             </div>
             <div className="split-line"></div>
             <div className="split-text">
-              <h2>why choose us ?</h2>
+            <h2 className='desktop-title'>Why choose us?</h2>
               <p>
-              we take pride in nurturing minds through the expertise of our experienced and dedicated educators who create a dynamic and inclusive learning environment tailored to every student’s unique potential. Our focus extends beyond academics—we believe in shaping well-rounded individuals by fostering character, leadership, and a deep-rooted sense of social responsibility. With a wide array of enriching extracurricular activities, sports, and cultural clubs, we ensure that every student not only learns but thrives with confidence and purpose.
+                we take pride in nurturing minds through the expertise of our experienced and dedicated educators who create a dynamic and inclusive learning environment tailored to every student’s unique potential. Our focus extends beyond academics—we believe in shaping well-rounded individuals by fostering character, leadership, and a deep-rooted sense of social responsibility. With a wide array of enriching extracurricular activities, sports, and cultural clubs, we ensure that every student not only learns but thrives with confidence and purpose.
               </p>
             </div>
           </div>
         </section>
-  <StatsSection/>
+        <StatsSection />
 
         {/* <section className="testimonial-section">
         <div className="testimonial-header">

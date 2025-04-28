@@ -32,9 +32,10 @@ const About = () => {
 
       {/* Mission */}
       <section className="transform-split white-section">
+      <h2 className='mobile-title text-center mt-5'>Mission</h2>
         <div className="container container-split  mb-4">
           <div className="split-text">
-            <h2>Mission</h2>
+          <h2 className='desktop-title text-center'>Mission</h2>
             <ShowMoreText text={missionText} limit={350} />
           </div>
           <div className="split-line"></div>
@@ -49,6 +50,7 @@ const About = () => {
 
       {/* Vision */}
       <section className="transform-split white-section">
+      <h2 className='mobile-title text-center '>Vision</h2>
         <div className="container container-split mb-4">
           <div className="split-image split-text">
             <img
@@ -58,7 +60,7 @@ const About = () => {
           </div>
           <div className="split-line"></div>
           <div className="split-text ">
-            <h2>Vision</h2>
+          <h2 className='desktop-title text-center'>Vision</h2>
             <p>Empowering students through innovation, creativity, and a future-forward vision.
             Our modern approach redefines how children learn, grow, and succeed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati facilis est quis nulla harum dolorem voluptatibus in. Eligendi ea officiis accusamus sunt autem tempora quod numquam temporibus? Soluta dolore ratione, ut laboriosam autem officiis in.</p>
           </div>

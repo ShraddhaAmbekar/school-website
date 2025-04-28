@@ -1,42 +1,40 @@
-
-.facilities-banner{
+.facilities-banner {
   height: 80vh;
+  width:97%;
   background: linear-gradient(to bottom, rgba(18, 18, 18, 0.1)),
-              url('/public/assets/images/other/facilities-desktop.jpg'
-              );
+    url('/public/assets/images/other/facilities-desktop.jpg'
+    );
   display: flex;
-  align-items: flex-end;
   color: white;
 }
 
 
-.facilities-heading h5{
+.facilities-heading h5 {
   font-size: 80px !important;
-  color:white;
+  color: white;
   text-shadow: 3px 3px 4px black;
   display: flex;
- 
- 
 }
 
 
-.facilities-banner h3{
+.facilities-banner h3 {
   padding-bottom: 30px;
 }
 
 @media (max-width: 480px) {
-.facilities-banner {
-  height: 540px;
-  padding: 40px 0;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-    background: 
-url('/public/assets/images/other/facilities-mobile.jpg') center/cover no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.facilities-heading{
-  display: none;
-}
+  .facilities-banner {
+    height: 540px;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:
+      url('/public/assets/images/other/facilities-mobile.jpg') center/cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .facilities-heading {
+    display: none;
+  }
 }
