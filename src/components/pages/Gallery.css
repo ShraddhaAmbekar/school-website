@@ -41,7 +41,6 @@
   position: relative;
   overflow: hidden;
   border-radius: 25px;
- 
   background: #575656;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
   transition: opacity 0.5s ease-in-out, transform 0.5s;
@@ -73,7 +72,6 @@
   opacity: 1;
 }
 
-
 /* Animate text on hover */
 .grid-item:hover .overlay-text {
   transform: translateY(0);
@@ -87,8 +85,6 @@
   object-fit: cover;
   border-radius: 12px;
 }
-
-
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {

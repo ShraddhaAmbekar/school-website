@@ -31,8 +31,7 @@ const Navbar = () => {
                 Home
               </Link>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/" onClick={handleNavLinkClick}>What is School</Link></li>
-                <li><Link className="dropdown-item" to="/" onClick={handleNavLinkClick}>Why Join Our Team</Link></li>
+             
               </ul>
             </li>
 

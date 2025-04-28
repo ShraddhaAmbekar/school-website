@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import StatsSection from './StatsSection';
+import { Link } from 'react-router';
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
             <div className="split-line"></div>
             <div className="split-image split-text">
               <img
-                src="https://www.shutterstock.com/image-photo/portrait-two-diligent-girls-looking-260nw-130517294.jpg"
+                src='/assets/images/other/16.jpg'
                 alt="Students Learning"
               />
             </div>
@@ -35,7 +36,7 @@ const Home = () => {
           <div className="container container-split mb-4" >
             <div className="split-image split-text">
               <img
-                src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
+                src='/assets/images/other/17.jpg'
                 alt="Learning Together"
               />
             </div>
@@ -61,7 +62,8 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                    <img src="/assets/images/school-images/29.jpeg" alt="Lights" loading='lazy' />
+<Link to='/gallery'>
+                    <img src="/assets/images/school-images/29.jpeg" alt="Lights" loading='lazy' /></Link>
                     <div className="caption">
                     
                     </div>
@@ -70,15 +72,16 @@ const Home = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-                  <img src="/assets/images/school-images/30.jpeg" alt="Fjords" loading='lazy'/>
+                  <Link to='/gallery'>
+                  <img src="/assets/images/school-images/30.jpeg" alt="Fjords" loading='lazy'/></Link>
                    
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-
-                    <img src="/assets/images/gallery-image1.jpg" alt="Fjords" loading='lazy'/>
+                  <Link to='/gallery'>
+                    <img src="/assets/images/gallery-image1.jpg" alt="Fjords" loading='lazy'/></Link>
                     <div className="caption">
                      
                     </div>
@@ -90,22 +93,22 @@ const Home = () => {
                 <div className="col-md-4">
                   <div className="thumbnail">
 
-                  <img src="/assets/images/school-images/19.jpg" alt="Fjords" loading='lazy'/>
-                    
+                 <Link to='/gallery'> <img src="/assets/images/school-images/19.jpg" alt="Fjords" loading='lazy'/></Link>
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
+                  <Link to='/gallery'>
                   <img src="/assets/images/banner.jpg" alt="Fjords" loading='lazy'/>
-                    
+                    </Link>
 
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="thumbnail">
-
-                  <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy'/>
+                  <Link to='/gallery'>
+                  <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy'/></Link>
                    
 
                   </div>
@@ -117,7 +120,7 @@ const Home = () => {
           <div className="container container-split" >
             <div className="split-image split-text">
               <img
-                src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
+                 src='/assets/images/other/19.jpg'
                 alt="Learning Together" loading='lazy'
               />
             </div>
