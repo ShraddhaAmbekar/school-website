@@ -9,16 +9,13 @@ const Home = () => {
     <div>
       <div className="home">
         <div className="banner">
-
         </div>
 
-
-        <section className="transform-split section2">
+        <section className="transform-split">
           <div className="container container-split">
             <h2 className='mobile-title'>We Transform <br />the School Experience</h2>
             <div className="split-text">
               <h2 className='desktop-title'>We Transform <br />the School Experience</h2>
-
               <p>
                 The Atal Utkrisht Schools are a transformative initiative by the Uttarakhand government aimed at enhancing educational standards in government schools, dedicated to former Prime Minister Atal Bihari Vajpayee. These schools provide quality education similar to private institutions, focusing on rural areas. With CBSE affiliation, English medium instruction, and essential facilities, they strive to retain students and improve educational opportunities, ensuring that every child has access to a brighter future.
               </p>
@@ -54,68 +51,31 @@ const Home = () => {
                 With 203 students, dedicated teachers, and committed staff, our school continues to move forward with a strong foundation of quality education, ethical values, and self-reliance.
               </p>
             </div>
-
-
           </div>
 
           <div className="home-gallery">
-            <div className="container ">
-              <h2 className='gallery-header'>Image Gallery</h2>
-              <div className="row">
-                <div className="col-md-4">
-                  <div className="thumbnail">
+          <div className="container py-5">
+  <h2 className="gallery-header text-center mb-4">Image Gallery</h2>
 
-                    <Link to='/gallery'>
-                      <img src="/assets/images/school-images/29.jpeg" alt="Lights" loading='lazy' /></Link>
-                    <div className="caption">
+  <div className="row">
+  {[29, 30, 78, 19, 67, 32].map((img, index) => (
+    <div key={index} className="col-12 col-md-6 col-sm-6 col-lg-4 mb-4">
+      <div className="thumbnail">
+        <Link to="/gallery">
+          <img
+            src={`/assets/images/school-images/${img}.jpeg`}
+            alt={`Gallery ${img}`}
+            loading="lazy"
+            className="img-fluid rounded shadow-sm"
+          />
+        </Link>
+      </div>
+    </div>
+  ))}
+</div>
 
-                    </div>
+</div>
 
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="thumbnail">
-                    <Link to='/gallery'>
-                      <img src="/assets/images/school-images/30.jpeg" alt="Fjords" loading='lazy' /></Link>
-
-
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="thumbnail">
-                    <Link to='/gallery'>
-                      <img src="/assets/images/gallery-image1.jpg" alt="Fjords" loading='lazy' /></Link>
-                    <div className="caption">
-
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-4">
-                  <div className="thumbnail">
-
-                    <Link to='/gallery'> <img src="/assets/images/school-images/19.jpg" alt="Fjords" loading='lazy' /></Link>
-
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="thumbnail">
-                    <Link to='/gallery'>
-                      <img src="/assets/images/banner.jpg" alt="Fjords" loading='lazy' />
-                    </Link>
-
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="thumbnail">
-                    <Link to='/gallery'>
-                      <img src="/assets/images/school-images/32.jpeg" alt="Fjords" loading='lazy' /></Link>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="container container-split" >

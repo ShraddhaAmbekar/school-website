@@ -1,6 +1,6 @@
 import React from "react";
 import "./StatsSection.css";
-import { FaUserFriends, FaChalkboardTeacher, FaLaptop, FaLeaf } from "react-icons/fa";
+import { FaUserFriends, FaChalkboardTeacher, FaLaptop } from "react-icons/fa";
 
 const statsData = [
   {
@@ -35,8 +35,8 @@ const StatsSection = () => {
         >
           <div className="icon">{item.icon}</div>
           {item.number && <h2>{item.number}</h2>}
-          <p>{item.label}</p>
-          {item.readMore && <a href="#">Read More</a>}
+          <p className='text-center'>{item.label}</p>
+          
         </div>
       ))}
     </div>

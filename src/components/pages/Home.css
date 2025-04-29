@@ -10,19 +10,6 @@
   color: white;
 }
 
-.banner-content {
-  bottom: 200px;
-  position: relative;
-  width: 1000px;
-  z-index: 5;
-  color: #f8f8f8;
-  text-shadow: 2px 2px 2px black;
-  text-align: center;
-}
-
-p {
-  word-spacing: -3px;
-}
 
 .transform-split {
   position: relative;
@@ -35,14 +22,16 @@ p {
   position: relative;
   display: flex;
   align-items: center;
+}
 
+.split-image {
+  width: 600px;
+  height: 500px;
 }
 
 .split-image img {
- 
-  width: 600px;
-  height: 500px;
-
+  width: 100%;
+  height: 100%;
 }
 
 .split-line {
@@ -54,7 +43,6 @@ p {
 
 .split-text {
   width: 50%;
-  text-align: justify;
 }
 
 .desktop-title {
@@ -73,6 +61,7 @@ p {
 }
 
 
+
 /* Responsive */
 @media (max-width: 768px) {
   .container-split {
@@ -80,12 +69,17 @@ p {
 
   }
 
+  .split-line {
+    display: none;
+  }
+
   .split-text {
     padding-right: 0;
   }
 
-  .split-image img {
-    max-width: 100%;
+  .split-image {
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -139,7 +133,6 @@ p {
   .gallery-header {
     font-size: 24px;
     text-align: center;
-    padding: 10px;
   }
 }
 
@@ -150,6 +143,10 @@ p {
     height: auto;
     margin: 20px auto;
   }
+.split-text{
+  width:90vw;
+}
+
 
   .gallery-header {
     font-size: 30px;
@@ -159,6 +156,10 @@ p {
 
 /* Large Devices (laptops/desktops) */
 @media (min-width: 769px) and (max-width: 992px) {
+  .banner {
+    width: 100vw;
+  }
+
   .thumbnail {
     width: 300px;
     height: 250px;
@@ -169,6 +170,15 @@ p {
     font-size: 36px;
     padding: 20px;
   }
+
+  .desktop-title{
+    font-size: 35px;
+  }
+  .split-image{
+    width:400px;
+    height:400px;
+  }
+  
 }
 
 /* Extra Large Devices */
@@ -183,26 +193,30 @@ p {
     font-size: 40px;
     padding: 20px;
   }
+  .split-text p{
+    text-align: justify;
+  }
 }
 
 /* Mobile devices (width ≤ 768px) */
 @media (max-width: 768px) {
+
+
   .banner {
     height: 90vh;
+    width:100vw;
     align-items: center;
     text-align: center;
+    background:
+    url('/public/assets/images/other/home-mobile.jpg') center/cover no-repeat;
   }
 
-  .banner-content h1 {
-    font-size: 32px;
-  }
-
-  .banner-content p {
-    font-size: 18px;
+  .split-text {
+  width: 90vw;
   }
 
   .split-text p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .desktop-title {
@@ -219,18 +233,6 @@ p {
 /* Extra small devices (width ≤ 480px) */
 @media (max-width: 480px) {
 
-  /* Home Banner */
-  .banner {
-    height: 540px;
-    padding: 40px 0;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background:
-      url('/public/assets/images/other/home-mobile.jpg') center/cover no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
 
   /* Transform Split Section */
   .container-split {
@@ -239,16 +241,13 @@ p {
     padding: 20px 30px;
   }
 
-  .split-image img {
+  
+  .split-image  {
     margin-top: 30px;
- outline: 30px solid white;
+  
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-  }
-
-  .split-line {
-    display: none;
   }
 
   .split-text {

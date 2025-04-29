@@ -21,7 +21,7 @@
   padding-bottom: 30px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .facilities-banner {
     height: 540px;
     padding: 40px 0;
