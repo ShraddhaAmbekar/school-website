@@ -232,6 +232,10 @@
 
 /* Extra small devices (width ≤ 480px) */
 @media (max-width: 480px) {
+  .banner {
+    height:540px;
+    width:100vw;
+  }
 
 
   /* Transform Split Section */
