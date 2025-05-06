@@ -26,6 +26,7 @@
 .split-image {
   width: 600px;
   height: 500px;
+  border: 2px solid white;
 }
 
 .split-image img {
@@ -92,6 +93,7 @@
   height: 300px;
   margin: 30px;
   border-radius: 12px;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
  
 }
 

@@ -15,6 +15,7 @@ import Facilities from './components/pages/Facilities';
 import Gallery from './components/pages/Gallery';
 import Header from './components/ui/Header';
 import Footer from './components/ui/Footer';
+import PoliciesPage from './components/pages/PoliciesPage';
 
 
 function App() {
@@ -32,7 +33,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/affliation" element={<PoliciesPage />} />
+
         </Routes>
+      
         <Footer />
       </Router>
     </div>

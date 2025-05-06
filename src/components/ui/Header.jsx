@@ -13,8 +13,8 @@ const Header = () => {
     <>
       <header className="main-header">
         <div className="container d-flex justify-content-between align-items-center py-3">
-          <img src="/logo.png" alt="Logo" className="logo" />
-
+          {/* <img src="/logo.png" alt="Logo" className="logo" /> */}
+<p className='logo'>Atal Utkrisht</p>
           <button className="menu-btn" onClick={toggleMenu}>
             ☰  <span className="close-btn">MENU</span> 
           </button>
@@ -23,7 +23,7 @@ const Header = () => {
 
       {/* Fullscreen Menu Overlay */}
       <div className={`overlay-menu ${isMenuOpen ? 'open' : ''}`}>
-        <button className="close-btn" onClick={closeMenu}>✕ CLOSE</button>
+        <button className="menu-btn" onClick={closeMenu}>✕<span className='close-btn'>CLOSE</span> </button>
 
 
   <ul className="overlay-links">
@@ -42,8 +42,6 @@ const Header = () => {
     </ul></li>
  
 
-  
-
   <li><Link to="contact" onClick={closeMenu}><span>Contact-us</span> </Link></li>
   <li className="has-submenu">
   <Link ><span>Facilities </span></Link>
@@ -53,14 +51,18 @@ const Header = () => {
       <li><Link to="/facilities" className="sublinks" onClick={closeMenu}>	&#x27A2; classroom</Link></li>
     </ul></li>
   <li><Link to="/gallery" onClick={closeMenu}><span>Gallery</span> </Link></li>
+
+  <li className="has-submenu">
+  <Link><span>Affliations and Credentials</span> </Link>
+    <ul className="submenu">
+      <li><Link to="/affliation" className="sublinks" onClick={closeMenu}> &#x27A2; Result and Academics</Link></li>
+      <li><Link to="/affliation" className="sublinks" onClick={closeMenu}> &#x27A2;Important certificates and documents</Link></li>
+    </ul></li>
 </ul>
 
 
-        <div className="social-icons">
-          <a href="#"><i className="bi bi-instagram"></i></a>
-          <a href="#"><i className="bi bi-facebook"></i></a>
-          <a href="#"><i className="bi bi-youtube"></i></a>
-        </div>
+
+ 
       </div>
     </>
   );

@@ -1,0 +1,48 @@
+.policies-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.document-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.document-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.document-title {
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+.view-link {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}

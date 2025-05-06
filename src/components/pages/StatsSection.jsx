@@ -7,7 +7,7 @@ const statsData = [
     icon: <FaUserFriends size={40} />,
     number: "203",
     label: "Student Strength",
-    bgColor: "#000000",
+    bgColor: "#060606",
     color:"#ffffff"
   },
   {
@@ -21,7 +21,7 @@ const statsData = [
     icon: <FaLaptop size={40} />,
     number: "3",
     label: "Support Staff",
-    bgColor:  "#000000",
+    bgColor:  "#060606",
     color:"#ffffff"
   },
 

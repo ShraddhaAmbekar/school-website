@@ -7,7 +7,7 @@
   max-width: 1200px;
   background-color: #ffffff; /* White background */
   border-radius: 10px;        /* Rounded corners */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
   overflow: hidden;
 }
 
@@ -19,13 +19,13 @@
   color: #333;
   font-family: "Segoe UI", sans-serif;
   transition: 0.3s ease;
-  border:20px solid black
+  border:10px solid #060606
 }
 
 .stat-box h2 {
   margin: 15px 0 5px;
   font-size: 2.5rem;
-  color: #000;
+  color: #030303;
 }
 
 .stat-box p {

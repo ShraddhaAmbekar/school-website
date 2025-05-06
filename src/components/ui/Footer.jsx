@@ -8,20 +8,21 @@ const Footer = () => {
       <div className="container">
         <div className="row">
 
-          <div className="col-md-4 mb-4 ">
+          <div className="column col-md-3 mb-4 ">
             <h3 >Atal Utkrisht Pt. Mahimanand Nautiyal GIC Jibya Kotdhar, Uttarkashi</h3>
-            <img src="df" alt="logo" className="img-fluid mt-3" />
+            {/* <img src="df" alt="logo" className="img-fluid mt-3" /> */}
           </div>
 
-          <div className="col-md-2 mb-4">
+          <div className="column col-md mb-4">
             <h4>About Us</h4>
             <ul>
               <li><Link to="/about">Mission</Link></li>
               <li><Link to="/about">Vision</Link></li>
+                <li><Link to="/gallery">Gallery</Link></li>
             </ul>
           </div>
 
-          <div className="col-md-2 mb-4">
+          <div className="column col-md mb-4">
             <h4>Facilities</h4>
             <ul>
               <li><Link to="/facilities">Laboratory</Link></li>
@@ -30,7 +31,17 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-md-4 mb-4">
+          <div className="column col-md-3 mb-4">
+            <h4>Affliation and Credentials</h4>
+            <ul>
+            <li><Link to="/affliation">Result and Academics</Link></li>
+            <li><Link to="/affliation">Important documents and Certificates</Link></li>
+            
+              
+            </ul>
+          </div>
+
+          <div className="column col-md-3 mb-4">
             <h4>Contact Us</h4>
             <p>Atal Utkrisht Late Mahimanand Nautiyal GIC Jibya Kotdhar, Chinyalisaur, Uttarkashi</p>
             <p>Pin code - 249152</p>
