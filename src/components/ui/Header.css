@@ -108,5 +108,13 @@
   font-size: 20px !important;
 }
 @media (max-width: 768px) {
-  .close-btn{display: none;}
+  .close-btn{display: none;
+  }
+  .overlay-links {
+    margin-left: 50px;
+  }
+  .overlay-links li  a{
+    font-size: 25px;
+  }
+
 }
