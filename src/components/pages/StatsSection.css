@@ -19,6 +19,7 @@
   color: #333;
   font-family: "Segoe UI", sans-serif;
   transition: 0.3s ease;
+  border:20px solid black
 }
 
 .stat-box h2 {

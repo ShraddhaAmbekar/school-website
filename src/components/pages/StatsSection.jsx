@@ -7,19 +7,22 @@ const statsData = [
     icon: <FaUserFriends size={40} />,
     number: "203",
     label: "Student Strength",
-    bgColor: "#f67c7c",
+    bgColor: "#000000",
+    color:"#ffffff"
   },
   {
     icon: <FaChalkboardTeacher size={40} />,
     number: "18",
     label: "Teaching Staff",
-    bgColor: "#ffe066",
+    bgColor: "#ffffff",
+    color:"#000000"
   },
   {
     icon: <FaLaptop size={40} />,
     number: "3",
     label: "Support Staff",
-    bgColor: "#98eb7c",
+    bgColor:  "#000000",
+    color:"#ffffff"
   },
 
 ];
@@ -31,10 +34,10 @@ const StatsSection = () => {
         <div
           key={index}
           className="stat-box"
-          style={{ backgroundColor: item.bgColor }}
+          style={{ backgroundColor: item.bgColor,color: item.color}}
         >
           <div className="icon">{item.icon}</div>
-          {item.number && <h2>{item.number}</h2>}
+          {item.number && <h2  style={{color: item.color}}>{item.number}</h2>}
           <p className='text-center'>{item.label}</p>
           
         </div>

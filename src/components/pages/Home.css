@@ -10,12 +10,11 @@
   color: white;
 }
 
-
 .transform-split {
   position: relative;
   background-color: #000000;
   color: #fff;
-  padding: 0px 0;
+  padding: 0 0;
 }
 
 .container-split {
@@ -56,7 +55,6 @@
 
 .split-text p {
   font-size: 20px;
-  text-align: justify;
   letter-spacing: 0.5px;
 }
 
@@ -66,7 +64,6 @@
 @media (max-width: 768px) {
   .container-split {
     flex-direction: column;
-
   }
 
   .split-line {
@@ -93,7 +90,9 @@
 .thumbnail {
   width: 350px;
   height: 300px;
-  margin: 30px
+  margin: 30px;
+  border-radius: 12px;
+ 
 }
 
 .thumbnail img {
@@ -101,7 +100,8 @@
   height: 100%;
   box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.5);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
-  border-radius: 12px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 .thumbnail img:hover {
@@ -122,7 +122,6 @@
   padding: 20px
 }
 
-/* Small Devices (phones) */
 @media (max-width: 576px) {
   .thumbnail {
     width: 90%;
@@ -136,7 +135,6 @@
   }
 }
 
-/* Medium Devices (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {
   .thumbnail {
     width: 80%;
@@ -154,7 +152,6 @@
   }
 }
 
-/* Large Devices (laptops/desktops) */
 @media (min-width: 769px) and (max-width: 992px) {
   .banner {
     width: 100vw;
@@ -187,6 +184,7 @@
     width: 350px;
     height: 300px;
     margin: 30px;
+
   }
 
   .gallery-header {
@@ -200,8 +198,6 @@
 
 /* Mobile devices (width ≤ 768px) */
 @media (max-width: 768px) {
-
-
   .banner {
     height: 90vh;
     width:100vw;
@@ -237,7 +233,6 @@
     width:100vw;
   }
 
-
   /* Transform Split Section */
   .container-split {
     flex-direction: column;
@@ -245,10 +240,8 @@
     padding: 20px 30px;
   }
 
-  
   .split-image  {
-    margin-top: 30px;
-  
+    margin-top: 30px;  
     width: 100%;
     height: auto;
     margin-bottom: 20px;
