@@ -19,7 +19,7 @@ const About = () => {
       <section>
         <div className="about-banner mb-4">
        <div className='container-split container'>     
-            <div className="split-line"></div>    
+           
           </div>
         </div>
       </section>

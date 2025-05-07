@@ -9,10 +9,7 @@ const Facilities = () => {
             <div className="split-text facilities-heading">
               <h5>Facilities</h5>
             </div>
-            <div className="split-line"></div>
-            <div className="split-text">
-
-            </div></div>
+         </div>
         </div>
       </section>
 
@@ -77,7 +74,7 @@ const Facilities = () => {
           <div className="split-line"></div>
           <div className="split-image split-text">
             <img
-           src='/assets/images/about/5.png'
+           src='/assets/images/about/new-5.png'
               alt="Students Learning"
             />
           </div>

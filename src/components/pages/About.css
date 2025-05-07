@@ -1,18 +1,28 @@
 .about-banner{
-  height: 86vh;
+  height: 95vh;
   background:
-     url('/public/assets/images/aboutus/3.png');
+     url('/public/assets/images/aboutus/3.png') no-repeat;
+     background-size: contain;
   display: flex;
   color: white;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .about-banner{
+    height: 80vh;
+    width:100vw;
+   
+    background:
+    url('/public/assets/images/aboutus/3.png') cover no-repeat;
+  }}
+
+
+@media (max-width: 992px) {
   .about-banner{
     height: 540px;
     width:100vw;
-    align-items: center;
-    text-align: center;
+ 
     background:
     url('/public/assets/images/about/4.png') center/cover no-repeat;
   }}
