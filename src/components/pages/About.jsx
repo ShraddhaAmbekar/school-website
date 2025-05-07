@@ -17,22 +17,16 @@ const About = () => {
   <div>
       {/* Header Section */}
       <section>
-        <div className="about-banner ">
-          <div className='container-split container  mb-4'>
-            <div className="split-text">
-              <h1>About Us</h1>
-            </div>
-            <div className="split-line"></div>
-            <div className="split-text">
-              <h3>Rooted in Values, Growing with Vision</h3>
-            </div>
+        <div className="about-banner mb-4">
+       <div className='container-split container'>     
+            <div className="split-line"></div>    
           </div>
         </div>
       </section>
 
       {/* Mission */}
       <section className="transform-split white-section">
-      <h2 className='mobile-title text-center mt-5'>Mission</h2>
+      <h2 className='mobile-title text-center '>Mission</h2>
         <div className="container container-split  mb-4">
           <div className="split-text">
           <h2 className='desktop-title'>Mission</h2>
@@ -41,7 +35,7 @@ const About = () => {
           <div className="split-line"></div>
           <div className="split-image split-text">
             <img
-              src="https://www.shutterstock.com/image-photo/portrait-two-diligent-girls-looking-260nw-130517294.jpg"
+                src='/assets/images/other/17.jpg'
               alt="Students Learning"
             />
           </div>
@@ -51,7 +45,7 @@ const About = () => {
       {/* Vision */}
       <section className="transform-split white-section">
       <h2 className='mobile-title text-center'>Vision</h2>
-        <div className="container container-split mb-4">
+        <div className="container container-split ">
           <div className="split-image split-text">
             <img
               src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3"

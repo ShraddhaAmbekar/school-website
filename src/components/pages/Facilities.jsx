@@ -32,7 +32,7 @@ const Facilities = () => {
           <div className="split-line"></div>
           <div className="split-image split-text">
             <img
-              src="https://www.shutterstock.com/image-photo/portrait-two-diligent-girls-looking-260nw-130517294.jpg"
+                  src='/assets/images/about/7.png'
               alt="Students Learning"
             />
           </div>
@@ -44,7 +44,7 @@ const Facilities = () => {
         <h2 className='mobile-title'>Laboratory</h2>
           <div className="split-image split-text">
             <img
-              src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwc3R1ZGVudHxlbnwwfHwwfHx8MA%3D%3D"
+               src='/assets/images/about/6.png'
               alt="Learning Together"
             />
           </div>
@@ -77,7 +77,7 @@ const Facilities = () => {
           <div className="split-line"></div>
           <div className="split-image split-text">
             <img
-              src="https://www.shutterstock.com/image-photo/portrait-two-diligent-girls-looking-260nw-130517294.jpg"
+           src='/assets/images/about/5.png'
               alt="Students Learning"
             />
           </div>
