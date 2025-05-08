@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       <header className="main-header">
-        <div className="container d-flex justify-content-between align-items-center py-3">
+        <div className="container d-flex justify-content-between align-items-center py-2">
           {/* <img src="/logo.png" alt="Logo" className="logo" /> */}
 <h2 className='logo'>Atal Utkrisht</h2>
           <button className="menu-btn" onClick={toggleMenu}>

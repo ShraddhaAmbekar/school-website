@@ -54,7 +54,7 @@ const Home = () => {
           </div>
 
           <div className="home-gallery">
-          <div className="container py-5">
+          <div className="container">
   <h2 className="gallery-header text-center mb-4">Image Gallery</h2>
 
   <div className="row">

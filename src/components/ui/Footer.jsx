@@ -46,7 +46,7 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <p>Atal Utkrisht Late Mahimanand Nautiyal GIC Jibya Kotdhar, Chinyalisaur, Uttarkashi</p>
             <p>Pin code - 249152</p>
-            <p>Email: info@schoolname.com</p>
+            <p>Email: augicjibyakotdhar@gmail.com</p>
             <p>Phone: +91 9761436675  /  +91 9259516141</p>
           </div>
 

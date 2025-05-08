@@ -74,7 +74,7 @@ const Contact = () => {
 
           <div className="contact-info">
             <h4>Get in Touch</h4>
-            <p>Email: </p>
+            <p>Email: augicjibyakotdhar@gmail.com</p>
             <p>Phone: +91 9761436675 / +91 9259516141</p>
             <p>Address: Atal Utkrisht Late Mahimanand Nautiyal GIC Jibya Kotdhar Chinyalisaur Uttarkashi Pin code 249152</p>
           </div>

@@ -210,13 +210,11 @@
   }
 
   .split-text {
-    padding-bottom:40px;
   width: 90vw;
   }
 
   .split-text p {
     font-size: 20px;
-
   }
 
   .desktop-title {
@@ -228,9 +226,7 @@
     font-size: 28px;
     font-weight: 700;
   }
-  .transform-split {
-    padding: 40px 0;
-  }
+ 
 }
 
 
@@ -259,5 +255,7 @@
     width: 90%;
     text-align: left;
   }
- 
-}
+
+  .transform-split {
+  padding: 20px 0;
+}}
