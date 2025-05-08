@@ -39,7 +39,7 @@ const resultDocs = [
     
     {
       title: "Copy of society - renewal",
-      url: "/assets/pdfs/fee structure of the school.pdf",
+      url: "/assets/pdfs/copy of society- renewal.pdf",
     },
     {
       title: "Copy of recognition certicate",
