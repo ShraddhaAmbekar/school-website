@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   width: 100vw;
-  height: 620px;
+  height: 95vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
     url('/public/assets/images/Atal.jpg') center/cover no-repeat;
   display: flex;
@@ -210,11 +210,13 @@
   }
 
   .split-text {
+    padding-bottom:40px;
   width: 90vw;
   }
 
   .split-text p {
     font-size: 20px;
+
   }
 
   .desktop-title {
@@ -226,7 +228,11 @@
     font-size: 28px;
     font-weight: 700;
   }
+  .transform-split {
+    padding: 40px 0;
+  }
 }
+
 
 /* Extra small devices (width ≤ 480px) */
 @media (max-width: 480px) {
@@ -253,5 +259,5 @@
     width: 90%;
     text-align: left;
   }
-
+ 
 }

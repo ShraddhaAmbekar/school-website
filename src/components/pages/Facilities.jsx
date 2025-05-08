@@ -5,11 +5,9 @@ const Facilities = () => {
     <div>
       <section>
         <div className="facilities-banner">
-          <div className='container-split container'>
-            <div className="split-text facilities-heading">
-              <h5>Facilities</h5>
-            </div>
-         </div>
+        
+          
+     
         </div>
       </section>
 

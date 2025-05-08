@@ -1,8 +1,9 @@
 .facilities-banner {
-  height: 80vh;
-  width:97%;
+width: 100vw;
+height : 90vh;
+
   background: linear-gradient(to bottom, rgba(18, 18, 18, 0.1)),
-    url('/public/assets/images/other/facilities-desktop.jpg'
+    url('/public/assets/images/facilites/4.png'
     ) no-repeat;
     background-size: contain;
   display: flex;
@@ -10,25 +11,13 @@
 }
 
 
-.facilities-heading h5 {
-  font-size: 80px !important;
-  color: white;
-  text-shadow: 3px 3px 4px black;
-  display: flex;
-}
-
-
-.facilities-banner h3 {
-  padding-bottom: 30px;
-}
-
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .facilities-banner {
-    height: 80vh;
-    padding: 40px 0;
+    height: 90vh;
     background:
-    url('/public/assets/images/other/facilities-desktop.jpg'
+    url('/public/assets/images/facilites/4.png'
     ) no-repeat;
+    background-size: contain;
 
   }
 
@@ -37,17 +26,32 @@
   }
 }
 
+
+@media (max-width: 1080px) {
+  .facilities-banner{
+    height: 80vh;
+    width:100vw;
+    background:
+    url('/public/assets/images/facilites/4.png') center/cover no-repeat
+
+  }}
 
 @media (max-width: 768px) {
   .facilities-banner {
     height: 540px;
-    padding: 40px 0;
+    padding: 0;
     background:
-      url('/public/assets/images/other/facilities-mobile.jpg') center/cover no-repeat
+    url('/public/assets/images/facilites/5.png') center/cover no-repeat
 
   }
 
-  .facilities-heading {
-    display: none;
-  }
+  
 }
+@media (max-width: 448px) {
+  .facilities-banner {
+    height: 540px;
+    padding: 0;
+    background:
+    url('/public/assets/images/facilites/5.png') center/cover no-repeat
+
+  }}

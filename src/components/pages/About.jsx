@@ -17,17 +17,15 @@ const About = () => {
   <div>
       {/* Header Section */}
       <section>
-        <div className="about-banner mb-4">
-       <div className='container-split container'>     
-           
-          </div>
+        <div className="about-banner">
+
         </div>
       </section>
 
       {/* Mission */}
       <section className="transform-split white-section">
       <h2 className='mobile-title text-center '>Mission</h2>
-        <div className="container container-split  mb-4">
+        <div className="container container-split mb-4">
           <div className="split-text">
           <h2 className='desktop-title'>Mission</h2>
             <ShowMoreText text={missionText} limit={350} />
@@ -48,7 +46,7 @@ const About = () => {
         <div className="container container-split ">
           <div className="split-image split-text">
             <img
-              src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3"
+              src="/assets/images/facilites/vision.svg"
               alt="Learning Together"
             />
           </div>
