@@ -36,6 +36,7 @@ const Footer = () => {
             <ul>
             <li><Link to="/affliation">Result and Academics</Link></li>
             <li><Link to="/affliation">Important documents and Certificates</Link></li>
+            <li><Link to="/affliation"> Mandatory Disclosure Details</Link></li>
             
               
             </ul>

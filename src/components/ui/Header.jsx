@@ -57,7 +57,8 @@ const Header = () => {
     <ul className="submenu">
       <li><Link to="/affliation" className="sublinks" onClick={closeMenu}> &#x27A2; Result and Academics</Link></li>
       <li><Link to="/affliation" className="sublinks" onClick={closeMenu}> &#x27A2;Important certificates and documents</Link></li>
-      <li><a href="/assets/pdfs/MandatoryDisclosureDetails_SARAS6.0.pdf" className="sublinks" onClick={closeMenu}> &#x27A2;Mandatory Disclosure Details</a></li>
+      <li><Link to="/affliation" className="sublinks" onClick={closeMenu}> &#x27A2;Mandatory Disclosure Details</Link></li>
+      
     </ul></li>
 </ul>
 
