@@ -14,7 +14,7 @@ const Header = () => {
       <header className="main-header">
         <div className="container d-flex justify-content-between align-items-center py-3">
           {/* <img src="/logo.png" alt="Logo" className="logo" /> */}
-<p className='logo'>Atal Utkrisht</p>
+<h2 className='logo'>Atal Utkrisht</h2>
           <button className="menu-btn" onClick={toggleMenu}>
             ☰  <span className="close-btn">MENU</span> 
           </button>
