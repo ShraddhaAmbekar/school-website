@@ -65,6 +65,11 @@ const resultDocs = [
       title: "Valid water certificate",
       url: "/assets/pdfs/valid water certificate.pdf",
     },
+
+    {
+      title: "Mandatory Disclosure Details",
+      url: "/assets/pdfs/MandatoryDisclosureDetails_SARAS6.0.pdf",
+    },
   ]
 
 const PoliciesPage = () => {
