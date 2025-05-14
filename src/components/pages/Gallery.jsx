@@ -33,7 +33,7 @@ const categories = ['All', 'Activities', 'Class', 'Events',];
   <div className="image-grid">
     {filteredImages.map((img, index) => (
       <div key={index} className="grid-item">
-        <img src={img.src} alt={img.category} className="big-img" loading='lazy'/>
+        <img src={img.src} alt={img.category} className="big-img"/>
         <div className ="overlay overlayeffect"></div>
       </div>
     ))}

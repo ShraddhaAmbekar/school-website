@@ -24,14 +24,20 @@ const About = () => {
 
       {/* Mission */}
       <section className="transform-split white-section">
-      <h2 className='mobile-title text-center '>Mission</h2>
-        <div className="container container-split mb-4">
+      <h2 className='mobile-title text-center m-4'>Mission</h2>
+           <div className="mobile-view split-image split-text">
+            <img
+                src='/assets/images/other/17.jpg'
+              alt="Students Learning"
+            />
+          </div>
+        <div className="container container-split">
           <div className="split-text">
           <h2 className='desktop-title'>Mission</h2>
             <ShowMoreText text={missionText} limit={350} />
           </div>
           <div className="split-line"></div>
-          <div className="split-image split-text">
+          <div className="laptop-view split-image split-text">
             <img
                 src='/assets/images/other/17.jpg'
               alt="Students Learning"

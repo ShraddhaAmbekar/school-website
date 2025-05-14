@@ -31,7 +31,7 @@ const Home = () => {
         </section>
 
         <section className="transform-split white-section">
-          <div className="container container-split mb-4" >
+          <div className="container container-split" >
             <h2 className='mobile-title'>About Us</h2>
             <div className="split-image split-text">
 
@@ -65,7 +65,7 @@ const Home = () => {
           <img
             src={`/assets/images/school-images/${img}.jpeg`}
             alt={`Gallery ${img}`}
-            loading="lazy"
+          
             className="img-fluid rounded shadow-sm"
           />
         </Link>
@@ -84,7 +84,7 @@ const Home = () => {
             <div className="split-image split-text">
               <img
                 src='/assets/images/other/19.jpg'
-                alt="Learning Together" loading='lazy'
+                alt="Learning Together"
               />
             </div>
             <div className="split-line"></div>

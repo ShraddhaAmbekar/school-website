@@ -5,27 +5,31 @@ const Facilities = () => {
     <div>
       <section>
         <div className="facilities-banner">
-        
-          
-     
+    
         </div>
       </section>
 
 
       <section className="transform-split white-section">
         <div className="container container-split">
-        <h2 className='mobile-title mt-3'>Library</h2>
+        <h2 className='mobile-title'>Library</h2>
           <div className="split-text">
           <h2 className='desktop-title'>Library</h2>
+         
+          <div className="mobile-view split-image split-text">
+            <img
+               src='/assets/images/about/6.png'
+              alt="Learning Together"
+            />
+          </div>
             <p>
               A Quiet Corner for Curious Minds
               The school library is a peaceful retreat where students can dive into the world of books. Stocked with a wide collection of academic and story books in Hindi and English, the library supports both studies and imagination. Students are encouraged to spend time reading during library periods and free hours. With comfortable seating and a calm atmosphere, the library helps build a lifelong love for reading and self-learning.
-
-
             </p>
           </div>
+          
           <div className="split-line"></div>
-          <div className="split-image split-text">
+          <div className="laptop-view split-image split-text">
             <img
                   src='/assets/images/about/7.png'
               alt="Students Learning"
@@ -35,7 +39,7 @@ const Facilities = () => {
       </section>
 
       <section className="transform-split white-section">
-        <div className="container container-split mb-4" >
+        <div className="container container-split" >
         <h2 className='mobile-title'>Laboratory</h2>
           <div className="split-image split-text">
             <img
@@ -63,14 +67,21 @@ const Facilities = () => {
         <div className="container container-split">
           <div className="split-text">
           <h2 className='desktop-title'>Classrooms</h2>
-       
+          
+          <div className="mobile-view split-image split-text">
+            <img
+                src='/assets/images/about/new-5.png'
+
+              alt="classroom"
+            />
+          </div>
             <p>
               Our classrooms are simple yet thoughtfully arranged to ensure every student feels comfortable and focused. With ample natural light, proper ventilation, and neat seating arrangements, they offer a calm and organized space for learning. The blackboards, charts, and student-made displays on the walls help create a connection between lessons and real-life understanding. Teachers use engaging methods, including discussions and group work, to make lessons meaningful and interactive.
 
             </p>
           </div>
           <div className="split-line"></div>
-          <div className="split-image split-text">
+          <div className="laptop-view split-image split-text">
             <img
            src='/assets/images/about/new-5.png'
               alt="Students Learning"
